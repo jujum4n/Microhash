@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Microhash Computer Systems</title>
+    <script type="text/javascript" src={{ url_for( 'static', filename='jquery-1.7.1.min.js' ) }}></script>
+    <script type="text/javascript" src={{ url_for( 'static', filename='socket.io.min.js' ) }}></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/0.10.12/js/jquery.terminal.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery.terminal/0.10.12/css/jquery.terminal.min.css" rel="stylesheet" />
+    <link href={{ url_for( 'static', filename='style.css' ) }} rel="stylesheet" />
+    <script type="text/javascript" charset="utf-8" src={{ url_for( 'static', filename='main.js' ) }}></script>
+</head>
+
+<body>
+    <div id="monitor-holder">
+        <div id="top-left">
+            <img src={{ url_for( 'static', filename='images/topleft.png' ) }}></img>
+        </div>
+        <div id="top-middle">
+            <img src={{ url_for( 'static', filename='images/topmiddle.png' ) }}></img>
+        </div>
+        <div id="top-right">
+            <img src={{ url_for( 'static', filename='images/topright.png' ) }}></img>
+        </div>
+        <div id="left-side">
+            <img src={{ url_for( 'static', filename='images/leftside.png' ) }}></img>
+        </div>
+        <div id="wsscreen-holder">
+            <div id="wsscreen"></div>
+        </div>
+        <div id="right-side">
+            <img src={{ url_for( 'static', filename='images/rightside.png' ) }}></img>
+        </div>
+        <div id="bottom-left">
+            <img src={{ url_for( 'static', filename='images/bottomleft.png' ) }}></img>
+        </div>
+        <div id="bottom-middle">
+            <img src={{ url_for( 'static', filename='images/bottommiddle.png' ) }}></img>
+        </div>
+        <div id="bottom-right">
+            <img src={{ url_for( 'static', filename='images/bottomright.png' ) }}></img>
+        </div>
+    </div>
+    <!--
+   <p style="color:white;">Latency: <b><span id="ping-pong"></span>ms</b></p>
+    <form id="emit" method="POST" action='#'>
+        <input type="text" name="emit_data" id="emit_data" placeholder="Message">
+        <input type="submit" value="Echo">
+    </form>
+    <form id="broadcast" method="POST" action='#'>
+        <input type="text" name="broadcast_data" id="broadcast_data" placeholder="Message">
+        <input type="submit" value="Broadcast">
+    </form>
+    <form id="join" method="POST" action='#'>
+        <input type="text" name="join_room" id="join_room" placeholder="Room Name">
+        <input type="submit" value="Join Room">
+    </form>
+    <form id="leave" method="POST" action='#'>
+        <input type="text" name="leave_room" id="leave_room" placeholder="Room Name">
+        <input type="submit" value="Leave Room">
+    </form>
+    <form id="send_room" method="POST" action='#'>
+        <input type="text" name="room_name" id="room_name" placeholder="Room Name">
+        <input type="text" name="room_data" id="room_data" placeholder="Message">
+        <input type="submit" value="Send to Room">
+    </form>
+    <form id="close" method="POST" action="#">
+        <input type="text" name="close_room" id="close_room" placeholder="Room Name">
+        <input type="submit" value="Close Room">
+    </form>
+    <form id="disconnect" method="POST" action="#">
+        <input type="submit" value="Disconnect">
+    </form>
+    -->
+
+</body>
+
+</html>

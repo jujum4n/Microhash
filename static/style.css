@@ -1,0 +1,203 @@
+     body {
+         background-color: white;
+     }
+     
+     #monitor-holder {
+         width: 100%;
+         float: left;
+         padding: 0px;
+         border: 0px;
+         margin: 0px;
+     }
+     
+     #top-left {
+         width: 395;
+         height: 149px;
+         float: left;
+         padding: 0px;
+         border: 0px;
+         margin: 0px;
+     }
+     
+     #top-middle {
+         width: 748px;
+         height: 149px;
+         float: left;
+         padding: 0px;
+         border: 0px;
+         margin: 0px;
+     }
+     
+     #top-right {
+         width: 393px;
+         height: 149px;
+         float: left;
+         padding: 0px;
+         border: 0px;
+         margin: 0px;
+     }
+     
+     #left-side {
+         width: 395px;
+         height: 565px;
+         float: left;
+         padding: 0px;
+         border: 0px;
+         margin: 0px;
+     }
+
+     #wsscreen {
+         width: 728px;
+         height: 545px;
+         background-color:black;
+         padding: 10px;
+         border: 0px;
+         margin: 0px;
+     }
+    #wsscreen-holder {
+         width: 748px;
+         height: 555px;
+         float: left;
+         background-color:black;
+         padding:0px;
+         border: 0px;
+         margin: 0px;
+     }
+     #right-side {
+         width: 393px;
+         height: 565px;
+         float: left;
+         padding: 0px;
+         border: 0px;
+         margin: 0px;
+     }
+     
+     #bottom-left {
+         width: 395px;
+         height: 565px;
+         float: left;
+         padding: 0px;
+         border: 0px;
+         margin: 0px;
+     }
+     
+     #bottom-middle {
+         width: 748px;
+         height: 310px;
+         float: left;
+         padding: 0px;
+         border: 0px;
+         margin: 0px;
+     }
+     
+     #bottom-right {
+         width: 393px;
+         height: 565px;
+         float: left;
+         padding: 0px;
+         border: 0px;
+         margin: 0px;
+     }
+     
+     div.terminal {
+         color: #00FF00;
+     }
+     
+     span.prompt {
+         color: #00FF00;
+     }
+     
+     @keyframes blink {
+         0% {
+             opacity: 1;
+         }
+         25% {
+             opacity: 0;
+         }
+         50% {
+             opacity: 0;
+         }
+         100% {
+             opacity: 1;
+         }
+     }
+     
+     @-webkit-keyframes blink {
+         0% {
+             opacity: 1;
+         }
+         25% {
+             opacity: 0;
+         }
+         50% {
+             opacity: 0;
+         }
+         100% {
+             opacity: 1;
+         }
+     }
+     
+     @-ms-keyframes blink {
+         0% {
+             opacity: 1;
+         }
+         25% {
+             opacity: 0;
+         }
+         50% {
+             opacity: 0;
+         }
+         100% {
+             opacity: 1;
+         }
+     }
+     
+     @-moz-keyframes blink {
+         0% {
+             opacity: 1;
+         }
+         25% {
+             opacity: 0;
+         }
+         50% {
+             opacity: 0;
+         }
+         100% {
+             opacity: 1;
+         }
+     }
+     
+     .prompt,
+     .command {
+         #00FF00;
+     }
+     
+     .cursor {
+         background: #00FF00;
+         animation: blink 1s linear infinite;
+         -webkit-animation: blink 1s infinite linear;
+         -ms-animation: blink 1s infinite linear;
+         -moz-animation: blink 1s infinite linear;
+         -webkit-box-shadow: 0 0 5px rgba(0, 100, 0, 50);
+         -moz-box-shadow: 0 0 5px rgba(0, 100, 0, 50);
+         -ms-box-shadow: 0 0 5px rgba(0, 100, 0, 50);
+         -o-box-shadow: 0 0 5px rgba(0, 100, 0, 50);
+         box-shadow: 0 0 5px rgba(0, 100, 0, 50);
+     }
+     
+     div.cmd.enabled span.cursor {
+         background: #00FF00;
+         animation: blink 1s linear infinite;
+         -webkit-animation: blink 1s infinite linear;
+         -ms-animation: blink 1s infinite linear;
+         -moz-animation: blink 1s infinite linear;
+         -webkit-box-shadow: 0 0 5px rgba(0, 100, 0, 50);
+         -moz-box-shadow: 0 0 5px rgba(0, 100, 0, 50);
+         -ms-box-shadow: 0 0 5px rgba(0, 100, 0, 50);
+         -o-box-shadow: 0 0 5px rgba(0, 100, 0, 50);
+         box-shadow: 0 0 5px rgba(0, 100, 0, 50);
+     }
+     
+     div.cmd {
+         color: #00FF00;
+     }
